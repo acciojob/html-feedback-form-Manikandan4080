@@ -8,8 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form action="" method ="post">
+		<lable for = "name">Name</lable>
+		<br>
+		<input type = "text" name = "name" id = "name" minlength="3" maxlength="50" required placeholder="Name">
+		<br>
+		
+		<label for= "portfolio">Portfolio</label>
+		<br>
+		<input type = "url" name = "portfolio" id = "portfolio" required placeholder="Portfolio-url">
+		<br>
+
+		<label for = "favColor">Favorite Color</label>
+		<br>
+		<input type = "color" name = "favColor" id = "favColor">
+		<br>
+
+		<lable for = "likeness">Likeness</lable>
+		<br>
+		<input type = "range" name = "likeness"id = "likeness" min = "1" max = "100">
+		<br>
+
+		<button type="submit">Submit</button>
+	</form>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
